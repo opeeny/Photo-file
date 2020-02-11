@@ -1,0 +1,13 @@
+header {
+    background: url(../images/horone.jpg);
+  /*  background: url(../images/horone.PNG);*/
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+    color: red;
+}
+@media screen and (max-width: 670px) {
+    header {
+        min-height: 500px;
+    }
+}
